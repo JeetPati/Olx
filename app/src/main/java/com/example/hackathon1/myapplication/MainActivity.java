@@ -45,7 +45,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
 
         btn_submit.setOnClickListener(this);
 
-        btn_submit.setOnClickListener(new View.OnClickListener() {
+        btn_image.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 // Create intent to Open Image applications like Gallery, Google Photos
